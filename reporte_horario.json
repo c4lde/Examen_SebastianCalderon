@@ -1,0 +1,14 @@
+[
+    {
+        "dia": "Viernes",
+        "eventos": [
+            {
+                "materia": "Python",
+                "dia": "Viernes",
+                "hora_inicio": "10:00",
+                "hora_fin": "13:00",
+                "ubicacion": ""
+            }
+        ]
+    }
+]

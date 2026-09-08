@@ -1,0 +1,16 @@
+[
+    {
+        "materia": "Python",
+        "dia": "Viernes",
+        "hora_inicio": "10:00",
+        "hora_fin": "13:00",
+        "ubicacion": ""
+    },
+    {
+        "materia": "Inglés",
+        "dia": "Martes",
+        "hora_inicio": "06:00",
+        "hora_fin": "08:00",
+        "ubicacion": "Hunters"
+    }
+]
