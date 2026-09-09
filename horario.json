@@ -12,5 +12,75 @@
         "hora_inicio": "06:00",
         "hora_fin": "08:00",
         "ubicacion": "Hunters"
+    },
+    {
+        "materia": "Estudio",
+        "dia": "Martes",
+        "hora_inicio": "13:00",
+        "hora_fin": "17:00",
+        "ubicacion": ""
+    },
+    {
+        "materia": "Estudio",
+        "dia": "Miercoles",
+        "hora_inicio": "13:00",
+        "hora_fin": "17:00",
+        "ubicacion": ""
+    },
+    {
+        "materia": "Almuerzo",
+        "dia": "Lunes",
+        "hora_inicio": "12:00",
+        "hora_fin": "13:00",
+        "ubicacion": ""
+    },
+    {
+        "materia": "Almuerzo",
+        "dia": "12:00",
+        "hora_inicio": "13:00",
+        "hora_fin": "13:00",
+        "ubicacion": ""
+    },
+    {
+        "materia": "Almuerzo",
+        "dia": "Martes",
+        "hora_inicio": "12:00",
+        "hora_fin": "13:00",
+        "ubicacion": ""
+    },
+    {
+        "materia": "Almuerzo",
+        "dia": "Miercoles",
+        "hora_inicio": "12:00",
+        "hora_fin": "13:00",
+        "ubicacion": ""
+    },
+    {
+        "materia": "Almuerzo",
+        "dia": "Jueves",
+        "hora_inicio": "12:00",
+        "hora_fin": "13:00",
+        "ubicacion": ""
+    },
+    {
+        "materia": "Almuerzo",
+        "dia": "Viernes",
+        "hora_inicio": "13:00",
+        "hora_fin": "14:00",
+        "ubicacion": ""
+    },
+    {
+        "materia": "Python",
+        "dia": "Lunes",
+        "hora_inicio": "06:00",
+        "hora_fin": "09:00",
+        "ubicacion": ""
+    },
+    {
+        "materia": "Inglés",
+        "dia": "Jueves",
+        "hora_inicio": "08:00",
+        "hora_fin": "10:00",
+        "ubicacion": ""
     }
 ]

@@ -1,6 +1,6 @@
 from datos import cargar_horario
 from materias import registrar_materia, modificar_materia, eliminar_materia
-from reportes import ver_horario, generar_reporte
+from reportes import ver_horario, generar_reporte, resumen_semanal
 from validaciones import hay_conflicto_horario
 
 def mostrar_menu():
@@ -12,7 +12,8 @@ def mostrar_menu():
     print("3. Modificar una materia o actividad")
     print("4. Eliminar una materia o actividad")
     print("5. Generar reporte del horario")
-    print("6. Salir")
+    print("6. Resumen semanal")
+    print("7. Salir")
     print("==========================================")
 
 def main():
@@ -31,6 +32,8 @@ def main():
         elif opcion == "5":
             generar_reporte(horario)
         elif opcion == "6":
+            resumen_semanal(horario)
+        elif opcion == "7":
             print("Gracias por utilizar el generador de horarios :)")
             break
         else:

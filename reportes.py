@@ -1,5 +1,6 @@
 from datetime import datetime
 import json
+import os
 
 DIAS = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes"]
 HORAS = ["06:00","07:00","08:00","09:00","10:00","11:00","12:00","13:00",
@@ -49,3 +50,26 @@ def generar_reporte(horario):
                 input("Presione ENTER para continuar...")
 
     print("Reporte guardado en reporte_horario.json")
+
+
+def resumen_semanal(horario):
+    total = len(horario)
+
+    if total == 0:
+        print("No hay materias o actividades registradas.")
+        return
+
+    print("\nRESUMEN SEMANAL")
+    print(f"Total de clases: {total}")
+
+    for dia in DIAS:
+        cantidad_dia = 0
+
+        for evento in horario:
+            if evento["dia"].lower() == dia.lower():
+                cantidad_dia += 1
+
+        print(f"{dia}: {cantidad_dia} clases")
+
+    with open("resumen_horario.json", "w", encoding="utf-8") as archivo:
+        json.dump(resumen_semanal, archivo, ensure_ascii=False, indent=4)
